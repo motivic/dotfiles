@@ -11,7 +11,7 @@ call plug#begin('~/.vim/plugged')
 " NERD Tree: a tree explorer plugin for vim
 Plug 'scrooloose/nerdtree'
 " ctrlp: fuzzy file, buffer, mru, tag, etc finder
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 " }}}
 
 " *** TEXT MANIPULATION *** {{{
@@ -60,11 +60,15 @@ Plug 'tpope/vim-fugitive'
 " vim-gitgutter: A vim plugin which shows git diff in the gutter (sign column)
 " and stages/reverts hunks
 Plug 'airblade/vim-gitgutter'
+" vimscript for gist
+Plug 'mattn/gist-vim'
 " }}}
 
 " *** THEME *** {{{
 " vim-colors-solarized: precision colorscheme for the vim text editor
 Plug 'altercation/vim-colors-solarized'
+" vim-devicons: add font icons
+Plug 'ryanoasis/vim-devicons'
 " }}}
 
 " *** POWERLINE *** {{{
@@ -172,5 +176,6 @@ set writebackup
 
 source ~/dotfiles/vim/.vim/plugins/deoplete.vim
 source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
+source ~/dotfiles/vim/.vim/plugins/devicons.vim 
 " }}}
 " vim:foldmethod=marker:foldlevel=0
