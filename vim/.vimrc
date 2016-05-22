@@ -168,9 +168,9 @@ nnoremap <leader>s :mksession<CR>
 " *** BACKUP *** {{{
 " backup
 set backup
-set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-set backupskip=/tmp/*,/private/tmp/*
-set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set backupdir=/var/tmp,/tmp
+set backupskip=/tmp/*,/private/tmp/*,/var/tmp/*
+set directory=/var/tmp,/tmp
 set writebackup
 " }}}
 
