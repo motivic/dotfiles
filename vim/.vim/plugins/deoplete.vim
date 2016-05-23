@@ -1,7 +1,6 @@
-" http://github.com/motivic/dotfiles
+" https://github.com/motivic/dotfiles
 
 let g:deoplete#enable_at_startup = 1
-
 
 let g:deoplete#sources#go = 'vim-go'
 let g:deoplete#sources#jedi#enable_cache = 1
