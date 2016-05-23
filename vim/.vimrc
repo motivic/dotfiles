@@ -1,4 +1,4 @@
-"https://github.com/motivic/dotfiles
+" https://github.com/motivic/dotfiles
 "
 " Author: Johnson Jia
 
@@ -62,6 +62,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 " vimscript for gist
 Plug 'mattn/gist-vim'
+" plugin for NERDTree
+Plug 'xuyuanp/nerdtree-git-plugin'
 " }}}
 
 " *** THEME *** {{{
@@ -69,6 +71,8 @@ Plug 'mattn/gist-vim'
 Plug 'altercation/vim-colors-solarized'
 " vim-devicons: add font icons
 Plug 'ryanoasis/vim-devicons'
+" vim-airline: theme
+Plug 'vim-airline/vim-airline-themes'
 " }}}
 
 " *** POWERLINE *** {{{
@@ -177,5 +181,6 @@ set writebackup
 source ~/dotfiles/vim/.vim/plugins/deoplete.vim
 source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
 source ~/dotfiles/vim/.vim/plugins/devicons.vim 
+source ~/dotfiles/vim/.vim/plugins/nerdtree.vim 
 " }}}
 " vim:foldmethod=marker:foldlevel=0
