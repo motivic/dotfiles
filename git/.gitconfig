@@ -1,0 +1,7 @@
+[user]
+	name = Johnson Jia
+	email = johnson.jia@live.com
+[core]
+	editor = nvim
+	autocrlf = input
+	safecrlf = true
