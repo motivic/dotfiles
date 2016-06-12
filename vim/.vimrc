@@ -122,6 +122,7 @@ colorscheme solarized
 syntax enable
 set tabstop=4		" tabstop
 set softtabstop=4	" tab behavior when editing
+set shiftwidth=4    " reindent operations behavior
 set expandtab		" tabs are spaces
 " }}}
 
