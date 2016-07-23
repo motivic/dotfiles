@@ -106,6 +106,13 @@ Plug 'davidhalter/jedi'
 Plug 'fatih/vim-go'
 " }}}
 
+" *** RUBY *** {{{
+" vim/ruby configuration
+Plug 'vim-ruby/vim-ruby'
+" rails.vim: Ruby on Rails power tools
+Plug 'tpope/vim-rails'
+" }}}
+
 call plug#end()
 " }}}
 
