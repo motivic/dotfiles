@@ -186,6 +186,10 @@ set directory=/var/tmp,/tmp
 set writebackup
 " }}}
 
+" *** PYTHON *** {{{
+" load python3
+let g:python_host_prog = '/usr/bin/python'
+" }}}
 source ~/dotfiles/vim/.vim/plugins/deoplete.vim
 source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
 source ~/dotfiles/vim/.vim/plugins/devicons.vim 
