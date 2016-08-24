@@ -1,2 +1,2 @@
 # dotfiles
-Dotfiles for my Arch setup
+dotfiles for my OS X setup
