@@ -1,2 +1,2 @@
 # dotfiles
-Dotfiles for my Arch setup
+The obligatory dotfiles repo
