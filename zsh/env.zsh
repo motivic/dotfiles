@@ -3,3 +3,6 @@
 export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 # export TERM="xterm-256color"
+
+# pyenv enable shims and autocompletion
+eval "$(pyenv init -)"
