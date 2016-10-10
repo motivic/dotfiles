@@ -12,3 +12,5 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 # pyenv build mirrors
 export PYTHON_BUILD_MIRROR_URL="http://yyuu.github.io/pythons"
+# pyenv auto-activate pyenv virtualenv
+eval "$(pyenv virtualenv-init -)"
