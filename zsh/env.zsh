@@ -14,3 +14,6 @@ eval "$(pyenv init -)"
 export PYTHON_BUILD_MIRROR_URL="http://yyuu.github.io/pythons"
 # pyenv auto-activate pyenv virtualenv
 eval "$(pyenv virtualenv-init -)"
+
+# cuDNN path
+export LD_LIBRARY_PATH="/lib/cuda:$LD_LIBRARY_PATH"
