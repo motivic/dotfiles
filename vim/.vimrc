@@ -78,6 +78,8 @@ Plug 'vim-airline/vim-airline-themes'
 " *** POWERLINE *** {{{
 " vim-airline: lean & mean status/tabline for vim that's light as air
 Plug 'bling/vim-airline'
+" load powerline fonts
+" let g:airline_powerline_fonts = 1
 " }}}
 
 " *** JAVASCRIPT *** {{{
@@ -119,6 +121,10 @@ call plug#end()
 " ***************
 " *** GENERAL ***
 " *************** {{{
+
+" *** UTF-8 *** {{{
+  set encoding=utf-8
+" }}}
 
 " *** COLORS *** {{{
 syntax on
