@@ -120,6 +120,10 @@ Plug 'tpope/vim-rails'
 Plug 'rip-rip/clang_complete'
 " additional vim syntax highlighting for C++
 Plug 'octol/vim-cpp-enhanced-highlight'
+" C/C++ IDE
+Plug 'c.vim'
+" vim plugin for clang-format
+Plug 'rhysd/vim-clang-format'
 " }}}
 
 call plug#end()
