@@ -187,9 +187,12 @@ set writebackup
 " }}}
 
 " *** PYTHON *** {{{
+" load python2
+let g:python_host_prog = '/usr/bin/python2'
 " load python3
-let g:python_host_prog = '/usr/bin/python'
+let g:python3_host_prog = '/usr/bin/python'
 " }}}
+
 source ~/dotfiles/vim/.vim/plugins/deoplete.vim
 source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
 source ~/dotfiles/vim/.vim/plugins/devicons.vim 
