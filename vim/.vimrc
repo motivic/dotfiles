@@ -115,6 +115,13 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 " }}}
 
+" *** C++ *** {{{
+" vim plugin that use clang for completing C/C++ code
+Plug 'rip-rip/clang_complete'
+" additional vim syntax highlighting for C++
+Plug 'octol/vim-cpp-enhanced-highlight'
+" }}}
+
 call plug#end()
 " }}}
 
@@ -196,12 +203,21 @@ set writebackup
 " }}}
 
 " *** PYTHON *** {{{
-" load python3
+" load python
 let g:python_host_prog = '/usr/bin/python'
 " }}}
+
+" *** C++ *** {{{
+" set clang path 
+let g:clang_library_path='/usr/lib/x86_64-linux-gnu/libclang-3.8.so.1'
+" load clang
+let g:clang_use_library = 1
+" }}}
+
 source ~/dotfiles/vim/.vim/plugins/deoplete.vim
 source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
 source ~/dotfiles/vim/.vim/plugins/devicons.vim 
 source ~/dotfiles/vim/.vim/plugins/nerdtree.vim 
 " }}}
+
 " vim:foldmethod=marker:foldlevel=0

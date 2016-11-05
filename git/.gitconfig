@@ -1,11 +1,11 @@
 [user]
     name = Johnson Jia
-	email = johnson.jia@live.com
+    email = johnson.jia@live.com
 [core]
     editor = nvim
     autocrlf = input
-	safecrlf = true
-	excludesfile = /home/jj/.gitignore_global
+    safecrlf = true
+    excludesfile = /home/jj/.gitignore_global
 [alias]
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     co = checkout
