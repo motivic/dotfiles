@@ -17,3 +17,7 @@ eval "$(pyenv virtualenv-init -)"
 
 # cuDNN path
 export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
+
+# libsvm path
+export LIBSVM=/home/jj/code/miscellaneous/libsvm
+

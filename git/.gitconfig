@@ -3,7 +3,7 @@
     email = johnson.jia@live.com
 [core]
     editor = nvim
-    autocrlf = input
+	autocrlf = input
     safecrlf = true
     excludesfile = /home/jj/.gitignore_global
 [alias]

@@ -207,8 +207,10 @@ set writebackup
 " }}}
 
 " *** PYTHON *** {{{
-" load python
+" load python 2.7
 let g:python_host_prog = '/usr/bin/python'
+" load python 3.5
+let g:python3_host_proj = '/home/jj/.pyenv/3.5.2'
 " }}}
 
 " *** C++ *** {{{
