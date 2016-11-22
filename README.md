@@ -1,3 +1,3 @@
 # dotfiles
 
-dotfiles for my Arch Linux setup
+dotfiles for my Ubuntu Linux setup
