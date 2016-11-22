@@ -1,3 +1,3 @@
 # dotfiles
 
-dotfiles for my Arch Linux setup
+Select branch to see the OS-specific dotfiles.
