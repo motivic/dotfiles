@@ -120,6 +120,12 @@ call plug#end()
 " *** GENERAL ***
 " *************** {{{
 
+" *** FONT *** {{{
+set encoding=utf8
+" set guifont=Fura\ Code\ Retina\ Nerd\ Font\ Complete\:h11
+let g:airlines_powerline_fonts=1
+" }}}
+
 " *** COLORS *** {{{
 set background=light
 colorscheme solarized
@@ -187,8 +193,8 @@ set writebackup
 " }}}
 
 " *** PYTHON *** {{{
-" load python3
-let g:python_host_prog = '/usr/bin/python'
+" load python
+let g:python_host_prog = '/User/kcn958/.pyenv/shims/python'
 " }}}
 source ~/dotfiles/vim/.vim/plugins/deoplete.vim
 source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
