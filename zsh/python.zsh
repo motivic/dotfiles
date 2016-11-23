@@ -12,4 +12,4 @@ export PYTHON_BUILD_MIRROR_URL="http://yyuu.github.io/pythons"
 eval "$(pyenv virtualenv-init -)"
 
 # virtualenvwrapper
-source $PYENV/shims/virtualenvwrapper.sh
+# source $PYENV_ROOT/shims/virtualenvwrapper.sh
