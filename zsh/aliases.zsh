@@ -11,8 +11,8 @@ alias -g .....='../../../..'
 #alias l="ls -lAh"
 alias cls=clear
 
-alias pbcopy='xsel --clipboard --input'
-alias pbpaste='xsel --clipboard --output'
-
 # neovim over vim
 alias vim=nvim
+
+# uncompress git blob
+alias git-deflate="perl -MCompress::Zlib -e 'undef $/; print uncompress(<>)'"

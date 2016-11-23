@@ -1,11 +1,10 @@
-[user]
-    name = Johnson Jia
-	email = johnson.jia@live.com
+[include]
+	path = ~/.gitconfig.local
 [core]
     editor = nvim
     autocrlf = input
 	safecrlf = true
-	excludesfile = /home/jj/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [alias]
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     co = checkout
@@ -14,4 +13,4 @@
     br = branch
     hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
     type = cat-file -t
-    dump = cat-file -p
+	dump = cat-file -p

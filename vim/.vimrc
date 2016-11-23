@@ -121,7 +121,7 @@ call plug#end()
 " *************** {{{
 
 " *** COLORS *** {{{
-set background=dark
+set background=light
 colorscheme solarized
 " }}}
 
