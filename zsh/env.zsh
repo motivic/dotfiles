@@ -19,5 +19,4 @@ eval "$(pyenv virtualenv-init -)"
 export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 
 # libsvm path
-export LIBSVM=/home/jj/code/miscellaneous/libsvm
-
+export LIBSVM=$HOME/code/miscellaneous/libsvm

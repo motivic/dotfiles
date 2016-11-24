@@ -97,8 +97,4 @@ do
   [ -f "$DOTFILE" ] && source "$DOTFILE"
 done
 
-# source ROS environment
-source /opt/ros/kinetic/setup.zsh
-
 source $ZSH/oh-my-zsh.sh
-

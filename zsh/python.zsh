@@ -4,4 +4,4 @@
 source /usr/local/bin/virtualenvwrapper.sh
 
 # Add libsvm to the path
-PYTHONPATH=$PYTHONPATH:/home/jj/code/miscellaneous/libsvm/python
+PYTHONPATH=$PYTHONPATH:$HOME/code/miscellaneous/libsvm/python
