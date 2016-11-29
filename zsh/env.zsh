@@ -19,3 +19,8 @@ eval "$(pyenv virtualenv-init -)"
 
 # cuDDN path
 export LD_LIBRARY_PATH="/opt/cuda/lib64:$LD_LIBRARY_PATH"
+
+# maven
+export M2_HOME=/opt/maven
+export M2=$M2_HOME/bin
+export PATH=$M2:$PATH
