@@ -224,6 +224,7 @@ source ~/dotfiles/vim/.vim/plugins/deoplete.vim
 source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
 source ~/dotfiles/vim/.vim/plugins/devicons.vim 
 source ~/dotfiles/vim/.vim/plugins/nerdtree.vim 
+source ~/dotfiles/vim/.vim/plugins/nerdcommenter.vim 
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
