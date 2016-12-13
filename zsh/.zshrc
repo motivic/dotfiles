@@ -9,7 +9,7 @@ ZSH=$HOME/.oh-my-zsh/
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="random"
 ZSH_THEME="blinks"
-SOLARIZED_THEME="light"
+SOLARIZED_THEME="dark"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -19,7 +19,7 @@ SOLARIZED_THEME="light"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-DISABLE_AUTO_UPDATE="true"
+# DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
