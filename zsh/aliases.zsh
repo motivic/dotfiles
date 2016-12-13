@@ -11,8 +11,9 @@ alias -g .....='../../../..'
 #alias l="ls -lAh"
 alias cls=clear
 
-alias pbcopy='xsel --clipboard --input'
-alias pbpaste='xsel --clipboard --output'
+# copy and paste
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 
 # neovim over vim
 alias vim=nvim
