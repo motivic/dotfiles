@@ -1,7 +1,7 @@
 # https://github.com/motivic/dotfiles
 
 # Path to your oh-my-zsh installation.
-ZSH=/usr/share/oh-my-zsh/
+ZSH=/usr/share/oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -91,10 +91,10 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 
+source $ZSH/oh-my-zsh.sh
+
 # source other files in ~/dotfiles/zsh/
 for DOTFILE in `find ~/dotfiles/zsh/*.zsh`
 do
   [ -f "$DOTFILE" ] && source "$DOTFILE"
 done
-
-source $ZSH/oh-my-zsh.sh
