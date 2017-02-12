@@ -20,3 +20,9 @@ export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 
 # libsvm path
 export LIBSVM=$HOME/code/miscellaneous/libsvm
+
+# IntelliJ Ultimate path
+export PATH=$HOME/.local/share/umake/ide/idea-ultimate/bin:$PATH
+
+# PyCharm Pro path
+export PATH=$HOME/.local/share/umake/ide/pycharm-professional/bin:$PATH
