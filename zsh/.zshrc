@@ -98,3 +98,6 @@ for DOTFILE in `find ~/dotfiles/zsh/*.zsh`
 do
   [ -f "$DOTFILE" ] && source "$DOTFILE"
 done
+
+# activate direnv
+eval "$(direnv hook zsh)"
