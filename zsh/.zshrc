@@ -98,3 +98,6 @@ do
 done
 
 source $ZSH/oh-my-zsh.sh
+
+# enable direnv
+eval "$(direnv hook zsh)"
