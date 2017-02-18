@@ -15,8 +15,11 @@ export PYTHON_BUILD_MIRROR_URL="http://yyuu.github.io/pythons"
 # pyenv auto-activate pyenv virtualenv
 eval "$(pyenv virtualenv-init -)"
 
+# CUDA path
+export CUDA_HOME=/usr/local/cuda
+export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
 # cuDNN path
-export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
 # libsvm path
 export LIBSVM=$HOME/code/miscellaneous/libsvm
