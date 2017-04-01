@@ -4,7 +4,8 @@
 
 " ***************
 " *** VIMPLUG ***
-" *************** {{{
+" *************** 
+" {{{
 call plug#begin('~/.vim/plugged')
 
 " *** FILE SYSTEM *** {{{
@@ -77,7 +78,12 @@ Plug 'vim-airline/vim-airline-themes'
 
 " *** POWERLINE *** {{{
 " vim-airline: lean & mean status/tabline for vim that's light as air
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+let g:airline_powerline_fonts = 1
+Plug 'vim-airline/vim-airline-themes'
+" let g:airline_theme='oceanicnext'
+" make sure to escape the spaces in the name properly
+" set guifont=Sauce\ Code\ Powerline\ Plus\ Nerd\ File\ Types\ Mono:h11
 " }}}
 
 " *** JAVASCRIPT *** {{{
@@ -118,7 +124,8 @@ call plug#end()
 
 " ***************
 " *** GENERAL ***
-" *************** {{{
+" *************** 
+" {{{
 
 " *** COLORS *** {{{
 set background=dark
