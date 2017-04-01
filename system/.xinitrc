@@ -31,8 +31,8 @@ fi
 syndaemon -K -i 0.3 -R -d
 
 # start gnome-keyring-daemon
-eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
-export SSH_AUTH_SOCK
+# eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+# export SSH_AUTH_SOCK
 
 exec i3 -V >> ~/log/i3log-$(date +'%F-%H-%M-%S') 2>&1
 
