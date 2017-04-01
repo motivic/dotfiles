@@ -9,6 +9,7 @@ URxvt*geometry: 115x40
 !URxvt*boldFont: xft:InconsolataForPowerline Nerd Font:bold:pixelsize=17:antialias=true:hinting=true
 URxvt*font: xft:SauceCodePro Nerd Font:pixelsize=14:antialias=true:hinting=true
 URxvt*boldFont: xft:SauceCodePro Nerd Font:bold:pixelsize=14:antialias=true:hinting=true
+URxvt*letterSpace: -0.5
 URxvt*depth: 24
 URxvt*borderless: 1
 URxvt*scrollBar: false
