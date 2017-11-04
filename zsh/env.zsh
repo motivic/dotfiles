@@ -5,6 +5,9 @@ export XDG_CONFIG_HOME="$HOME/.config"
 # export TERM="xterm-256color"
 
 # pyenv
+# pyenv paths
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
 # pyenv enable shims and autocompletion
 eval "$(pyenv init -)"
 # pyenv build mirrors
