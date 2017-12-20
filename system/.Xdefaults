@@ -1,13 +1,16 @@
 ! urxvt
 
 URxvt*geometry: 115x40
-!URxvt*font: xft:DejaVuSansMonoForPowerline Nerd Font:pixelsize=14:antialias=true:hinting=true
-!URxvt*boldFont: xft:DejaVuSansMonoForPowerline Nerd Font:bold:pixelsize=14:antialias=true:hinting=true
-URxvt*font: xft:Fura Code:pixelsize=14:antialias=true:hinting=true
-URxvt*boldFont: xft:Fura Code:bold:pixelsize=14:antialias=true:hinting=true
+!URxvt*font: xft:DejaVuSansMonoForPowerline Nerd Font:pixelsize=16:antialias=true:hinting=true
+!URxvt*boldFont: xft:DejaVuSansMonoForPowerline Nerd Font:bold:pixelsize=16:antialias=true:hinting=true
+!URxvt*font: xft:Fura Code:pixelsize=18:antialias=true:hinting=true
+!URxvt*boldFont: xft:Fura Code:bold:pixelsize=18:antialias=true:hinting=true
 !URxvt*font: xft:InconsolataForPowerline Nerd Font:pixelsize=17:antialias=true:hinting=true
 !URxvt*boldFont: xft:InconsolataForPowerline Nerd Font:bold:pixelsize=17:antialias=true:hinting=true
-URxvt*depth: 24
+URxvt*font: xft:SauceCodePro Nerd Font:pixelsize=18:antialias=true:hinting=true
+URxvt*boldFont: xft:SauceCodePro Nerd Font:bold:pixelsize=18:antialias=true:hinting=true
+
+URxvt*depth: 24 
 URxvt*borderless: 1
 URxvt*scrollBar: false
 URxvt*saveLines: 2000
@@ -24,7 +27,7 @@ URxvt.perl-ext: default,url-select,clipboard,selection-to-clipboard
 URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.url-select.autocopy: true
 URxvt.url-select.button: 2
-URxvt.url-select.launcher: chromium
+URxvt.url-select.launcher: chromium-browser
 URxvt.url-select.underline: true
 
 ! simple tabs
@@ -45,7 +48,7 @@ URxvt.iso14755_52: false
 
 ! URxvt*color0: rgb:00/00/00
 ! URxvt*color1: rgb:a8/00/00
-! URxvt*color2: rgb:00/a8/00
+!  URxvt*color2: rgb:00/a8/00
 ! URxvt*color3: rgb:a8/54/00
 ! URxvt*color4: rgb:00/00/a8
 ! URxvt*color5: rgb:a8/00/a8
@@ -61,7 +64,7 @@ URxvt.iso14755_52: false
 ! URxvt*color15: rgb:f8/fc/f8
 
 ! urxvt color scheme:
-! URxvt*background: #2B2B2B
+!  URxvt*background: #2B2B2B
 ! URxvt*foreground: #DEDEDE
 
 ! URxvt*colorUL: #86a2b0

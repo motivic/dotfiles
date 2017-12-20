@@ -78,6 +78,8 @@ Plug 'vim-airline/vim-airline-themes'
 " *** POWERLINE *** {{{
 " vim-airline: lean & mean status/tabline for vim that's light as air
 Plug 'bling/vim-airline'
+" load powerline fonts
+" let g:airline_powerline_fonts = 1
 " }}}
 
 " *** JAVASCRIPT *** {{{
@@ -113,6 +115,17 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 " }}}
 
+" *** C++ *** {{{
+" vim plugin that use clang for completing C/C++ code
+Plug 'rip-rip/clang_complete'
+" additional vim syntax highlighting for C++
+Plug 'octol/vim-cpp-enhanced-highlight'
+" C/C++ IDE
+Plug 'c.vim'
+" vim plugin for clang-format
+Plug 'rhysd/vim-clang-format'
+" }}}
+
 call plug#end()
 " }}}
 
@@ -120,7 +133,14 @@ call plug#end()
 " *** GENERAL ***
 " *************** {{{
 
+" *** UTF-8 *** {{{
+  set encoding=utf-8
+" }}}
+
 " *** COLORS *** {{{
+syntax on
+let g:solarized_termcolors=256
+set t_Co=256
 set background=dark
 colorscheme solarized
 " }}}
@@ -187,12 +207,24 @@ set writebackup
 " }}}
 
 " *** PYTHON *** {{{
-" load python3
-let g:python_host_prog = '/usr/bin/python3'
+" load python 2.7
+let g:python_host_prog = '/home/johnson/.pyenv/versions/miniconda2-latest/bin/python'
+" load python 3.6
+let g:python3_host_prog = '/home/johnson/.pyenv/versions/miniconda3-latest/bin/python'
 " }}}
+
+" *** C++ *** {{{
+" set clang path 
+let g:clang_library_path='/usr/lib/x86_64-linux-gnu/libclang-3.8.so.1'
+" load clang
+let g:clang_use_library = 1
+" }}}
+
 source ~/dotfiles/vim/.vim/plugins/deoplete.vim
 source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
 source ~/dotfiles/vim/.vim/plugins/devicons.vim 
 source ~/dotfiles/vim/.vim/plugins/nerdtree.vim 
+source ~/dotfiles/vim/.vim/plugins/nerdcommenter.vim 
 " }}}
+
 " vim:foldmethod=marker:foldlevel=0

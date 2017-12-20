@@ -1,7 +1,7 @@
 # https://github.com/motivic/dotfiles
 
 # Path to your oh-my-zsh installation.
-ZSH=$HOME/.oh-my-zsh/ 
+ZSH=$HOME/.oh-my-zsh/
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -19,7 +19,7 @@ SOLARIZED_THEME="dark"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-DISABLE_AUTO_UPDATE="true"
+# DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -98,3 +98,6 @@ do
 done
 
 source $ZSH/oh-my-zsh.sh
+
+# enable direnv
+# eval "$(direnv hook zsh)"
