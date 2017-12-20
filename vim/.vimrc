@@ -5,7 +5,7 @@
 " ***************
 " *** VIMPLUG ***
 " *************** {{{
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/site/plugged')
 
 " *** FILE SYSTEM *** {{{
 " NERD Tree: a tree explorer plugin for vim
@@ -188,7 +188,7 @@ set writebackup
 
 " *** PYTHON *** {{{
 " load python3
-let g:python_host_prog = '/usr/bin/python'
+let g:python_host_prog = '/usr/bin/python3'
 " }}}
 source ~/dotfiles/vim/.vim/plugins/deoplete.vim
 source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
