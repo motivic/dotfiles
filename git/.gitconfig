@@ -16,3 +16,6 @@
     dump = cat-file -p
 [push]
 	default = simple
+[user]
+	email = johnson.jia@live.com
+	name = motivic
