@@ -203,7 +203,14 @@ set writebackup
 let g:python_host_prog = '/Users/johnsonjia/.pyenv/versions/miniconda2-latest/bin/python'
 let g:python3_host_prog = '/Users/johnsonjia/.pyenv/versions/miniconda3-latest/bin/python'
 " }}}
+
+" *** DEOPLETE *** {{{
+" load deoplete, use Tab to change selection
 source ~/dotfiles/vim/.vim/plugins/deoplete.vim
+inoremap <silent><expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+inoremap <silent><expr><s-tab> pumvisible() ? "\<c-p>" : "\<s-tab>"
+" }}}
+
 source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
 source ~/dotfiles/vim/.vim/plugins/devicons.vim 
 source ~/dotfiles/vim/.vim/plugins/nerdtree.vim 
