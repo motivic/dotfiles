@@ -9,7 +9,7 @@ ZSH=$HOME/.oh-my-zsh/
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="random"
 ZSH_THEME="blinks"
-SOLARIZED_THEME="dark"
+# SOLARIZED_THEME="light"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -54,10 +54,11 @@ ZSH_CUSTOM=$HOME/dotfiles/zsh/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
+plugins=(kubectl)
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/opt:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 
