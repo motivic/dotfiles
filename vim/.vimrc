@@ -200,8 +200,8 @@ set writebackup
 
 " *** PYTHON *** {{{
 " load python
-let g:python_host_prog = '/Users/johnsonjia/.pyenv/versions/miniconda2-latest/bin/python'
-let g:python3_host_prog = '/Users/johnsonjia/.pyenv/versions/miniconda3-latest/bin/python'
+let g:python2_host_prog = '/home/johnson/.pyenv/versions/miniconda2-latest/bin/python'
+let g:python3_host_prog = '/home/johnson/.pyenv/versions/miniconda3-latest/bin/python'
 " }}}
 
 " *** DEOPLETE *** {{{
