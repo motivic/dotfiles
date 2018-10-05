@@ -19,10 +19,10 @@ alias pbpaste='xclip -selection clipboard -o'
 alias vim=nvim
 
 # bat over cat
-alias cat=bat
+alias cat='bat --theme GitHub'
 
 # prettyping over ping
 alias ping=prettyping
 
 # fzf over ctrl+r
-alias preview="fzf --preview 'bat --color \"always\" {}'"
+alias preview="fzf --preview 'bat --theme GitHub --color \"always\" {}'"
