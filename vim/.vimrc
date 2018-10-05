@@ -35,6 +35,9 @@ Plug 'easymotion/vim-easymotion'
 Plug 'rking/ag.vim'
 " }}}
 
+" fzf
+Plug '~/.fzf'
+
 " *** DEV TOOLS *** {{{
 " neomake: A plugin for asynchronous :make using Neovim's job-control
 " functionality

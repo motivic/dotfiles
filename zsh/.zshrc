@@ -9,7 +9,7 @@ ZSH=$HOME/.oh-my-zsh/
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="random"
 ZSH_THEME="blinks"
-#SOLARIZED_THEME="light"
+SOLARIZED_THEME="light"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -102,3 +102,5 @@ source $ZSH/oh-my-zsh.sh
 
 # enable direnv
 # eval "$(direnv hook zsh)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

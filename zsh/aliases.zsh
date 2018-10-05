@@ -17,3 +17,12 @@ alias pbpaste='xclip -selection clipboard -o'
 
 # neovim over vim
 alias vim=nvim
+
+# bat over cat
+alias cat=bat
+
+# prettyping over ping
+alias ping=prettyping
+
+# fzf over ctrl+r
+alias preview="fzf --preview 'bat --color \"always\" {}'"
