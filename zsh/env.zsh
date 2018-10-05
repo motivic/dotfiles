@@ -33,3 +33,6 @@ export PATH=$HOME/.local/share/umake/ide/idea-ultimate/bin:$PATH
 
 # PyCharm Pro path
 export PATH=$HOME/.local/share/umake/ide/pycharm-professional/bin:$PATH
+
+# Cargo path
+export PATH=$HOME/.cargo/bin:$PATH
