@@ -12,3 +12,6 @@ export BAT_THEME="GitHub"
 
 # add support for ctrl+o to open selected file in VS Code
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(nvim {})+abort'"
+
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
