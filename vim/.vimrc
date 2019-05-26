@@ -139,11 +139,12 @@ call plug#end()
 " }}}
 
 " *** COLORS *** {{{
-syntax on
+" set term=xterm
+syntax enable
 let g:solarized_termcolors=256
 set t_Co=256
-set background=dark
-colorscheme solarized
+set background=light
+colorscheme default
 " }}}
 
 " *** SPACE & TABS *** {{{
@@ -221,11 +222,11 @@ let g:clang_library_path='/usr/lib/x86_64-linux-gnu/libclang-3.8.so.1'
 let g:clang_use_library = 1
 " }}}
 
-source ~/dotfiles/vim/.vim/plugins/deoplete.vim
-source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
-source ~/dotfiles/vim/.vim/plugins/devicons.vim 
-source ~/dotfiles/vim/.vim/plugins/nerdtree.vim 
-source ~/dotfiles/vim/.vim/plugins/nerdcommenter.vim 
+" source ~/dotfiles/vim/.vim/plugins/deoplete.vim
+" source ~/dotfiles/vim/.vim/plugins/ctrlp.vim
+" source ~/dotfiles/vim/.vim/plugins/devicons.vim 
+" source ~/dotfiles/vim/.vim/plugins/nerdtree.vim 
+" source ~/dotfiles/vim/.vim/plugins/nerdcommenter.vim 
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0

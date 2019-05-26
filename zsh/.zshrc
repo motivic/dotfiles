@@ -8,8 +8,10 @@ ZSH=$HOME/.oh-my-zsh/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="random"
-ZSH_THEME="blinks"
-SOLARIZED_THEME="light"
+#ZSH_THEME="theunraveler"
+POWERLEVEL9K_MODE='nerdfont-complete'
+ZSH_THEME="powerlevel10k/powerlevel10k"
+#SOLARIZED_THEME="default"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

@@ -115,3 +115,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Launch Zsh 
+if [ -t 1 ]; then 
+    exec zsh 
+fi
